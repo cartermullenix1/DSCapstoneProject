@@ -1,0 +1,9 @@
+std_msgs/Header header
+float32 dist
+float32 az
+float32 el
+float32 cam_pitch
+float32 cam_roll
+float32 cam_yaw
+string object_class
+string object_subclass
