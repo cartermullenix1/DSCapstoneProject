@@ -60,15 +60,19 @@ This command launches the Oak-D camera node, which streams RGB Video, Depth, IMU
 ### 2. Launch the Detection Node
 
 ```bash
-ros2 launch cam_det_obj camera.launch.py
+ros2 run cam_det_obj vision_node
 ```
 
 This will start the detection node, which subscribes to the camera RGB, Depth, and IMU and publishes custom ROS2 detection messages.
 
-### Aknowledgments of Resources
+### Acknowledgment of Resources
 
 [DepthAI ROS2](https://docs.luxonis.com/projects/api/en/latest/) - Documentation for the DepthAI ROS2 driver.
 
-[Ultralytics YOLOv8](https://docs.ultralytics.com/) - Documentation for the YOLOv8 model and training scripts.
+[OpenCV](https://docs.opencv.org/4.x/) - Documentation for the OpenCV library used for image processing.
+
+[Pytorch](https://pytorch.org/) - Documentation for the PyTorch library used in model training and inference.
 
 [ROS 2](https://docs.ros.org/en/humble/index.html) - Documentation for ROS 2 and its ecosystem.
+
+[Ultralytics YOLOv8](https://docs.ultralytics.com/) - Documentation for the YOLOv8 model and training scripts.
