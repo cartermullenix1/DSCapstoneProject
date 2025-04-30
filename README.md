@@ -47,6 +47,18 @@ The goal of this project is to enable reliable buoy detection and localization o
 - `ultralytics` library for YOLOv8
 - Oak-D camera connected to the system with POE (Power Over Ethernet) enabled.
 
+apt requirements:
+
+```bash
+sudo apt install ros-humble-cv-bridge ros-humble-depthai-ros 
+```
+
+pip requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
 ### 1. Launch the Oak-D Camera
 
 Command to run:
